@@ -1,0 +1,52 @@
+{
+  "name": "pyang-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth/mongodb-adapter": "^2.0.13",
+    "@aws-sdk/client-s3": "^3.490.0",
+    "aws-sdk": "^2.1537.0",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "child_process": "^1.0.2",
+    "child-process": "^1.0.2",
+    "couchbase": "^4.2.9",
+    "express": "^4.18.2",
+    "firebase": "^10.7.1",
+    "firebase-admin": "^12.0.0",
+    "framer-motion": "^10.18.0",
+    "micro": "^10.0.1",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.0",
+    "next": "^14.0.4",
+    "next-auth": "^4.24.5",
+    "nock": "^13.5.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.0.1",
+    "stripe": "^14.12.0",
+    "tailwind-scrollbar": "^3.0.5",
+    "typescript": "^5.3.3",
+    "uniqid": "^5.4.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "@types/react": "^18.2.48",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "html-loader": "^5.0.0",
+    "mock-aws-s3": "^4.0.2",
+    "postcss": "^8.4.33",
+    "raw-loader": "^4.0.2",
+    "tailwindcss": "^3.4.1"
+  }
+}
